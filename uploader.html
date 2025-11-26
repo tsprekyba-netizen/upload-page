@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Image Upload</title>
+  <script>
+    UPLOADCARE_PUBLIC_KEY = "demopublickey"; /* ČIA ĮDĖSIM TAVO REALŲ KEY VĖLIAU */
+  </script>
+  <script src="https://ucarecdn.com/libs/widget/3.x/uploadcare.full.min.js"></script>
+</head>
+<body style="display:flex; justify-content:center; align-items:center; height:100vh;">
+
+  <input type="hidden"
+         role="uploadcare-uploader"
+         data-images-only="true"
+         data-crop="4:3"
+         data-clearable="false" />
+
+</body>
+</html>
